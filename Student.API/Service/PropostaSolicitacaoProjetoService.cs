@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Student.API.Service
 {
-    public class PropostaSolicitacaoProjetoController : IPropostaSolicitacaoProjeto
+    public class PropostaSolicitacaoProjetoService : IPropostaSolicitacaoProjetoService
     {
 
         private readonly IPropostaSolicitacaoProjetoRepository _repository;
         private readonly IMapper _mapper;
 
-        public PropostaSolicitacaoProjetoController(IPropostaSolicitacaoProjetoRepository repository, IMapper mapper)
+        public PropostaSolicitacaoProjetoService(IPropostaSolicitacaoProjetoRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;

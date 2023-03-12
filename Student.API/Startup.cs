@@ -48,8 +48,8 @@ namespace Student.API
             services.AddScoped<ISolicitacaoProjetoRepository, SolicitacaoProjetoRepository>();
             services.AddScoped<ISolicitacaoProjetoService, SolicitacaoProjetoService>();
 
-            services.AddScoped<ISolicitacaoProjetoRepository, SolicitacaoProjetoRepository>();
-            services.AddScoped<ISolicitacaoProjetoService, SolicitacaoProjetoService>();
+            services.AddScoped<IPropostaSolicitacaoProjetoRepository, PropostaSolicitacaoProjetoRepository>();
+            services.AddScoped<IPropostaSolicitacaoProjetoService, PropostaSolicitacaoProjetoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

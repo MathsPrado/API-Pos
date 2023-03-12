@@ -13,9 +13,9 @@ namespace Student.API.Controllers
     public class PropostaSolicitacaoProjetoController : ControllerBase
     {
 
-        private readonly IPropostaSolicitacaoProjeto _service;
+        private readonly IPropostaSolicitacaoProjetoService _service;
 
-        public PropostaSolicitacaoProjetoController(IPropostaSolicitacaoProjeto service)
+        public PropostaSolicitacaoProjetoController(IPropostaSolicitacaoProjetoService service)
         {
             _service = service;
         }

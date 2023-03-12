@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Student.API.Service.Interface
 {
-    public interface IPropostaSolicitacaoProjeto
+    public interface IPropostaSolicitacaoProjetoService
     {
         Task<IEnumerable<PropostaSolicitacaoProjetoDTO>> GetAll();
         Task<PropostaSolicitacaoProjetoDTO> FindById(int id);
