@@ -55,6 +55,23 @@ namespace Student.API.Controllers
             }
         }
 
+        [HttpGet("/solicitacaoProject/{id}")]
+        public async Task<ActionResult<PropostaSolicitacaoProjetoDTO>> Get(int id)
+        {
+            try
+            {
+                var result = await _service.FindByIdPropostaSolucao(id);
+                if (result != null)
+                    return Ok(result);
+
+                return BadRequest("Informações não encontradas");
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
         // POST api/<SolicitacaoProjetoController>
         [HttpPost]
         public async Task<ActionResult<int>> Create([FromBody] PropostaSolicitacaoProjetoDTO value)
