@@ -4164,11 +4164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathe\\Pictures\\.net\\Projects\\Student.API\\Student.API\\Student.API.csproj",
+      "projectUniqueName": "C:\\Projects_Git\\API-Pos\\Student.API\\Student.API.csproj",
       "projectName": "Student.API",
-      "projectPath": "C:\\Users\\mathe\\Pictures\\.net\\Projects\\Student.API\\Student.API\\Student.API.csproj",
+      "projectPath": "C:\\Projects_Git\\API-Pos\\Student.API\\Student.API.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\Pictures\\.net\\Projects\\Student.API\\Student.API\\obj\\",
+      "outputPath": "C:\\Projects_Git\\API-Pos\\Student.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -9,6 +9,10 @@ namespace Student.API.DTOs.Mapping
         {
             CreateMap<SolicitacaoProjetoDTO, SolicitacaoProjeto>();
             CreateMap<SolicitacaoProjeto, SolicitacaoProjetoDTO>();
+
+
+            CreateMap<PropostaSolicitacaoProjetoDTO, PropostaSolicitacaoProjeto>();
+            CreateMap<PropostaSolicitacaoProjeto, PropostaSolicitacaoProjetoDTO>();
         }
     }
 }

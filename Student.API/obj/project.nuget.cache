@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nRc59eoXz4Yb8eGkjCTstsHtLFu2BWPh/t6Nxcziwo/G1Az4MawmFPgeBNx16d/MVcJeP5+MgaHINjLce17W5w==",
+  "dgSpecHash": "6DcqOLWi9VBdwDqJMEIGNYwaBpkjAMzqQ2/WSaAgT/fhWitiOOAutwnCuJkNkntNI/mi8CQZLOPS4WXVawDPug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\Pictures\\.net\\Projects\\Student.API\\Student.API\\Student.API.csproj",
+  "projectFilePath": "C:\\Projects_Git\\API-Pos\\Student.API\\Student.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

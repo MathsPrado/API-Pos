@@ -22,6 +22,31 @@ namespace Student.API.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Student.API.Model.PropostaSolicitacaoProjeto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descircao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("IdPropostaSolucao")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Orçamento")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TempoEntrega")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PropostaSolicitacaoProjeto");
+                });
+
             modelBuilder.Entity("Student.API.Model.SolicitacaoProjeto", b =>
                 {
                     b.Property<int>("Id")

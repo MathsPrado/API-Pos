@@ -47,6 +47,9 @@ namespace Student.API
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<ISolicitacaoProjetoRepository, SolicitacaoProjetoRepository>();
             services.AddScoped<ISolicitacaoProjetoService, SolicitacaoProjetoService>();
+
+            services.AddScoped<ISolicitacaoProjetoRepository, SolicitacaoProjetoRepository>();
+            services.AddScoped<ISolicitacaoProjetoService, SolicitacaoProjetoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
