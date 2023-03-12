@@ -29,7 +29,7 @@ namespace Student.API.Service
         public async Task<PropostaSolicitacaoProjetoDTO> Delete(int id)
         {
             var result = await _repository.Delete(id);
-            return _mapper.Map<PropostaSolicitacaoProjetoDTO>(id);
+            return _mapper.Map<PropostaSolicitacaoProjetoDTO>(result);
         }
 
         public async Task<PropostaSolicitacaoProjetoDTO> FindById(int id)
