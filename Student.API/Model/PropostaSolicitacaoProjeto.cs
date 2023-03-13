@@ -11,5 +11,6 @@ namespace Student.API.Model
         public int TempoEntrega { get; set; }
         public string Orçamento { get; set; }
         public int IdPropostaSolucao { get; set; }
+        public int IdUsuario { get; set; }
     }
 }

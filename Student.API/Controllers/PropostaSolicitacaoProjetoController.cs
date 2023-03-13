@@ -55,8 +55,8 @@ namespace Student.API.Controllers
             }
         }
 
-        [HttpGet("/solicitacaoProject/{id}")]
-        public async Task<ActionResult<PropostaSolicitacaoProjetoDTO>> Get(int id)
+        [HttpGet("solicitacaoProject/{id}")]
+        public async Task<ActionResult<PropostaSolicitacaoProjetoDTO>> GetProposta(int id)
         {
             try
             {
