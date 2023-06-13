@@ -51,6 +51,7 @@ C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\PubTmp\Out\System.Securit
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\PubTmp\Out\System.Text.Encodings.Web.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\PubTmp\Out\System.Text.Json.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\PubTmp\Out\System.Windows.Extensions.dll
+C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\PubTmp\Out\TextCopy.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll

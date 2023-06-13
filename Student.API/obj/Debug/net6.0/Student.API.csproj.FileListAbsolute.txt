@@ -167,7 +167,6 @@ C:\Projects_Git\API-Pos\Student.API\bin\Debug\net6.0\runtimes\win\lib\netstandar
 C:\Projects_Git\API-Pos\Student.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Projects_Git\API-Pos\Student.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Projects_Git\API-Pos\Student.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\Student.API.csproj.AssemblyReference.cache
 C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\Student.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\Student.API.AssemblyInfoInputs.cache
 C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\Student.API.AssemblyInfo.cs
@@ -182,3 +181,5 @@ C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\Student.API.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\ref\Student.API.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\Student.API.pdb
 C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\Student.API.genruntimeconfig.cache
+C:\Projects_Git\API-Pos\Student.API\obj\Debug\net6.0\Student.API.csproj.AssemblyReference.cache
+C:\Projects_Git\API-Pos\Student.API\bin\Debug\net6.0\TextCopy.dll

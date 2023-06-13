@@ -20,7 +20,10 @@ namespace Student.API.Controllers
             _service = service;
         }
 
-        // GET: api/<SolicitacaoProjetoController>
+        public PropostaSolicitacaoProjetoController()
+        {
+        }
+
         [HttpGet]
         public async Task<ActionResult<PropostaSolicitacaoProjetoDTO>> GetAll()
         {
@@ -38,7 +41,6 @@ namespace Student.API.Controllers
             }
         }
 
-        // GET api/<SolicitacaoProjetoController>/5
         [HttpGet("{id}")]
         public async Task<ActionResult<PropostaSolicitacaoProjetoDTO>> Get(int id)
         {

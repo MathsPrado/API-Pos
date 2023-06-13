@@ -89,3 +89,5 @@ C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\Student.API.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\ref\Student.API.dll
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\Student.API.pdb
 C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\Student.API.genruntimeconfig.cache
+C:\Projects_Git\API-Pos\Student.API\obj\Release\net6.0\Student.API.csproj.AssemblyReference.cache
+C:\Projects_Git\API-Pos\Student.API\bin\Release\net6.0\TextCopy.dll
