@@ -12,7 +12,7 @@ namespace XUnitStudentAPI
         [Fact]
         public void Test1()
         {
-            var teste = new PropostaSolicitacaoProjetoController();
+ 
         }
     }
 }

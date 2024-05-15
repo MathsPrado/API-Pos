@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NSwag.Annotations;
 using Student.API.DTOs;
 using Student.API.Model;
 using Student.API.Service.Interface;
@@ -18,10 +19,6 @@ namespace Student.API.Controllers
         public PropostaSolicitacaoProjetoController(IPropostaSolicitacaoProjetoService service)
         {
             _service = service;
-        }
-
-        public PropostaSolicitacaoProjetoController()
-        {
         }
 
         [HttpGet]

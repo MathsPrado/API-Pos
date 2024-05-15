@@ -2,6 +2,7 @@
 using Student.API.Context;
 using Student.API.Model;
 using Student.API.Repository.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,8 +21,15 @@ namespace Student.API.Repository
 
         public async Task<SolicitacaoProjeto> Create(SolicitacaoProjeto value)
         {
-            _context.SolicitacaoProjeto.Add(value);
-            await  _context.SaveChangesAsync();
+            try
+            {
+                _context.SolicitacaoProjeto.Add(value);
+                await _context.SaveChangesAsync();
+            }
+            catch(Exception e)
+            {
+                return null;
+            }
             return value;
         }
 
