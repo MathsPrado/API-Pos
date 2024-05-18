@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Student.API.Repository.Interface
 {
-    public interface IPerfilUseroRepository
+    public interface IPerfilUserRepository
     {
         Task<IEnumerable<PerfilUser>> GetAll();
         Task<PerfilUser> FindById(int id);

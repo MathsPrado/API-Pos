@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Student.API.Repository
 {
-    public class PerfilUseroRepository : IPerfilUseroRepository
+    public class PerfilUserRepository : IPerfilUserRepository
     {
 
         private readonly AppDbContext _context;
 
-        public PerfilUseroRepository(AppDbContext context)
+        public PerfilUserRepository(AppDbContext context)
         {
             _context = context;
         }

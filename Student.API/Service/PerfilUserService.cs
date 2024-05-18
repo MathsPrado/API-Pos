@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Student.API.Service
 {
-    public class PerfilUseroService : IPerfilUserService
+    public class PerfilUserService : IPerfilUserService
     {
 
-        private readonly IPerfilUseroRepository _repository;
+        private readonly IPerfilUserRepository _repository;
         private readonly IMapper _mapper;
 
-        public PerfilUseroService(IPerfilUseroRepository repository, IMapper mapper)
+        public PerfilUserService(IPerfilUserRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
