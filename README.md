@@ -1,6 +1,6 @@
 # EstudanteWorkAPI
 
-API para ser utilizada em https://github.com/MathsPrado/Web-Pos
+API utilizada em https://github.com/MathsPrado/Web-Pos
 
 ## Tecnologias
 
