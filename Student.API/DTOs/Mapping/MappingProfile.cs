@@ -10,10 +10,14 @@ namespace Student.API.DTOs.Mapping
             CreateMap<SolicitacaoProjetoDTO, SolicitacaoProjeto>();
             CreateMap<SolicitacaoProjeto, SolicitacaoProjetoDTO>();
             CreateMap<PerfilUser, PerfilUserDTO>();
+            CreateMap<Login, LoginDTO>();
 
             CreateMap<PropostaSolicitacaoProjetoDTO, PropostaSolicitacaoProjeto>();
             CreateMap<PropostaSolicitacaoProjeto, PropostaSolicitacaoProjetoDTO>();
             CreateMap<PerfilUserDTO, PerfilUser>();
+            CreateMap<LoginDTO, Login>();
+
+
         }
     }
 }
