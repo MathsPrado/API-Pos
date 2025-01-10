@@ -12,5 +12,6 @@ namespace Student.API.Model
         public string Email { get; set; }
         public string Telefone { get; set; }
         public string Biografia { get; set; }
+        public string PasswordHash { get; set; }
     }
 }
