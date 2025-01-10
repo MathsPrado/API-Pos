@@ -174,5 +174,11 @@ namespace Student.API.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] PerfilUserDTO request)
+        {
+            return Ok("Usuário criado com sucesso!");
+        }
     }
 }
