@@ -2,7 +2,7 @@
 
 API utilizada em https://github.com/MathsPrado/Web-Pos
 
-## Tecnologias
+## Principais Tecnologias 
 
 - **.NET 6**: Plataforma para construir aplicações.
 - **Entity Framework Core**: ORM para interação com bancos de dados.
