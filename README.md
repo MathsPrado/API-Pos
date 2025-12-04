@@ -1,23 +1,23 @@
 # EstudanteWorkAPI
 
-API utilizada em https://github.com/MathsPrado/Web-Pos
+API used in https://github.com/MathsPrado/Web-Pos
 
-## Principais Tecnologias 
+## Key Technologies 
 
-- **.NET 6**: Plataforma para construir aplicações.
-- **Entity Framework Core**: ORM para interação com bancos de dados.
-- **ASP.NET Core**: Framework para construir APIs.
+- **.NET 6**: Platform for building applications.
+- **Entity Framework Core**: ORM (Object-Relational Mapper) for database interaction.
+- **ASP.NET Core**: Framework for building APIs.
 
 
-## Pré-requisitos
+## Prerequisites
 
 - [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
-- [SQL Server / outro banco de dados](https://www.microsoft.com/sql-server/sql-server-downloads) (dependendo da sua escolha)
-- [Postman,Insomnia ou o Próprio Swagger](https://www.postman.com/downloads/) (para testar a API)
+- [SQL Server / other database](https://www.microsoft.com/sql-server/sql-server-downloads) (depending on your choice)
+- [Postman, Insomnia, or Swagger itself](https://www.postman.com/downloads/) (for testing the API)
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/MathsPrado/API-Pos.git
-   cd API-Pos
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/MathsPrado/API-Pos.git](https://github.com/MathsPrado/API-Pos.git)
+   cd API-Pos
