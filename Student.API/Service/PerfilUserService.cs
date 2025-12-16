@@ -83,7 +83,8 @@ namespace Student.API.Service
         private bool VerifyPassword(string password, string passwordHash)
         {
             // Compara a senha fornecida com o hash armazenado
-            return BCrypt.ReferenceEquals(password, passwordHash);
+            //return BCrypt.ReferenceEquals(password, passwordHash);
+            return false;
         }
 
         private string GenerateJwtToken(string email)
