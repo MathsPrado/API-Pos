@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi.Models; // ESSENCIAL para corrigir o erro do OpenApiInfo
 using Student.API.Context;
 using Student.API.Repository;
 using Student.API.Repository.Interface;
@@ -32,21 +32,24 @@ namespace Student.API
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient();
-            services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
+
+            // VOLTAMOS AO PADRÃO (Agora funciona pois os pacotes são v12.0.1)
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             services.AddSwaggerGen(c =>
             {
+                // Certifique-se que o 'using Microsoft.OpenApi.Models;' está lá em cima
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student.API", Version = "v1" });
             });
 
             var sqlConnection = Configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<AppDbContext>(options =>
-                                                        options.UseSqlServer(sqlConnection));
+                options.UseSqlServer(sqlConnection));
 
             // Configuração JWT
             var jwtSettings = Configuration.GetSection("JwtSettings");
@@ -71,27 +74,25 @@ namespace Student.API
                 };
             });
 
-            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            // Injeção de Dependências
             services.AddScoped<ISolicitacaoProjetoRepository, SolicitacaoProjetoRepository>();
             services.AddScoped<ISolicitacaoProjetoService, SolicitacaoProjetoService>();
+            services.AddScoped<IPerfilUserRepository, PerfilUserRepository>();
             services.AddScoped<IPerfilUserService, PerfilUserService>();
-
             services.AddScoped<IPropostaSolicitacaoProjetoRepository, PropostaSolicitacaoProjetoRepository>();
             services.AddScoped<IPropostaSolicitacaoProjetoService, PropostaSolicitacaoProjetoService>();
-            services.AddScoped<IPerfilUserRepository, PerfilUserRepository>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-
             app.UseDeveloperExceptionPage();
+
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Student.API v1"));
-            
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

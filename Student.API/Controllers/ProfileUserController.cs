@@ -7,7 +7,6 @@ using Student.API.Model;
 using Student.API.Service.Interface;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
