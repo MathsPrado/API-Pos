@@ -12,5 +12,7 @@ namespace Student.API.Repository.Interface
         Task<PerfilUser> Create(PerfilUser value);
         Task<PerfilUser> Update(PerfilUser value);
         Task<PerfilUser> Delete(int id);
+        Task<PerfilUser> GetUserByEmailAsync(string email);
+        
     }
 }

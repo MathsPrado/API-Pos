@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XUnitStudentAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dea1dbdcbc18f78e9c3b86a883d6dea214e8aef")]
 [assembly: System.Reflection.AssemblyProductAttribute("XUnitStudentAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XUnitStudentAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

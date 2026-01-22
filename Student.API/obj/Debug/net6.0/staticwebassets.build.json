@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "twrsg2Ox9R18bHQFkvvf6WjaERiv8ts53ZfgGg5SR8Q=",
-  "Source": "Student.API",
-  "BasePath": "_content/Student.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"HEsM8ZeMa2Sw3DQZu/Jmx/yUGbxHFDN4gPTFHhJMsTU=","Source":"Student.API","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

@@ -15,6 +15,7 @@ namespace Student.API.Context
             mb.Entity<SolicitacaoProjeto>().HasKey(c => c.Id);
             mb.Entity<PropostaSolicitacaoProjeto>().HasKey(c => c.Id);
             mb.Entity<PerfilUser>().HasKey(c => c.Id);
+            mb.Entity<PerfilUser>().HasKey(c => c.Id);
         }
     }
 }

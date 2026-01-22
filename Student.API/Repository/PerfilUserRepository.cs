@@ -51,6 +51,13 @@ namespace Student.API.Repository
             return result;
         }
 
+        public async Task<PerfilUser> GetUserByEmailAsync(string email)
+        {
+            return await _context.PerfilUser
+                .FirstOrDefaultAsync(u => u.Email == email);
+        }
+
+
         public async Task<PerfilUser> Update(PerfilUser value)
         {
             _context.Entry(value).State = (Microsoft.EntityFrameworkCore.EntityState)EntityState.Modified;

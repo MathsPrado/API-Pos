@@ -13,5 +13,6 @@ namespace Student.API.Service.Interface
         Task<PerfilUserDTO> Create(PerfilUserDTO solicitacaoProjetoDTO);
         Task<PerfilUserDTO> Update(PerfilUserDTO solicitacaoProjetoDTO);
         Task<PerfilUserDTO> Delete(int id);
+        Task<string> AuthenticateAsync(PerfilUserDTO value);
     }
 }

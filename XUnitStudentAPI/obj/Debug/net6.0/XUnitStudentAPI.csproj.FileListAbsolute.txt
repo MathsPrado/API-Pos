@@ -13,7 +13,6 @@ C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\xunit.runner.utility.ne
 C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\XUnitStudentAPI.deps.json
 C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\XUnitStudentAPI.runtimeconfig.json
 C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\XUnitStudentAPI.dll
-C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\ref\XUnitStudentAPI.dll
 C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\XUnitStudentAPI.pdb
 C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\AutoMapper.dll
 C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -163,8 +162,17 @@ C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.Generat
 C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.AssemblyInfoInputs.cache
 C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.AssemblyInfo.cs
 C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.csproj.CoreCompileInputs.cache
-C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.csproj.CopyComplete
 C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.dll
 C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\ref\XUnitStudentAPI.dll
 C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.pdb
 C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.genruntimeconfig.cache
+C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStudentAPI.sourcelink.json
+C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\refint\XUnitStudentAPI.dll
+C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\NSwag.Annotations.dll
+C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Projects_Git\API-Pos\XUnitStudentAPI\obj\Debug\net6.0\XUnitStu.EEF8BDD2.Up2Date
+C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\Student.API.staticwebassets.endpoints.json
+C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\Castle.Core.dll
+C:\Projects_Git\API-Pos\XUnitStudentAPI\bin\Debug\net6.0\Moq.dll
