@@ -19,7 +19,6 @@ namespace Student.API.Controllers
     [ApiController]
     public class ProfileUserController : ControllerBase
     {
-
         private readonly IPerfilUserService _service;
         private readonly IConfiguration _configuration;
 
