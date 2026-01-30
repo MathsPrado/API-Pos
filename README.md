@@ -27,12 +27,11 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 ## 🔧 Configuração e Execução BD
 
-1. **Clone o repositório:**
+### 1. Clone o repositório:
    ```bash
    git clone [https://github.com/MathsPrado/API-Pos.git](https://github.com/MathsPrado/API-Pos.git)
    cd API-Pos
-
-   ## 🔧 Configuração e Execução
+```
 
 ### 2. Configure a String de Conexão
 Abra o arquivo `appsettings.json` e verifique se a string de conexão aponta para o seu banco de dados local corretamente.
