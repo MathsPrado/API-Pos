@@ -11,7 +11,7 @@ Esta é a API backend do projeto **EstudanteWork**, responsável por gerenciar a
 O projeto foi desenvolvido com as seguintes tecnologias:
 
 - **[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)** - Linguagem de programação.
-- **[.NET 6](https://dotnet.microsoft.com/download/dotnet/10.0)** - Framework de desenvolvimento.
+- **[.NET 10](https://dotnet.microsoft.com/download/dotnet/10.0)** - Framework de desenvolvimento.
 - **[ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/)** - Framework para construção de APIs web.
 - **[Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)** - ORM para manipulação de dados.
 - **SQL Server** (ou *PostgreSQL/MySQL* - ajuste conforme seu banco) - Banco de dados.
