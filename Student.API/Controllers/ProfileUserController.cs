@@ -12,13 +12,13 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Student.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ProfileUserController : ControllerBase
     {
-
         private readonly IPerfilUserService _service;
         private readonly IConfiguration _configuration;
 
