@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models; // ESSENCIAL para corrigir o erro do OpenApiInfo
+using Microsoft.OpenApi.Models;
 using Student.API.Context;
 using Student.API.Repository;
 using Student.API.Repository.Interface;
@@ -37,12 +37,10 @@ namespace Student.API
             services.AddHttpClient();
             services.AddControllers();
 
-            // VOLTAMOS AO PADRÃO (Agora funciona pois os pacotes são v12.0.1)
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddSwaggerGen(c =>
             {
-                // Certifique-se que o 'using Microsoft.OpenApi.Models;' está lá em cima
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student.API", Version = "v1" });
             });
 
