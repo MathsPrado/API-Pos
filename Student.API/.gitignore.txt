@@ -1,0 +1,31 @@
+## Build e Dependências
+[Bb]in/
+[Oo]bj/
+.config
+coverage/
+test-results/
+
+
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+## Logs
+*.log
+
+## OS Files (Lixo do Sistema Operacional)
+.DS_Store
+Thumbs.db
+
+
+appsettings.Development.json
+appsettings.Local.json
