@@ -7,11 +7,11 @@ using Student.API.Model;
 using Student.API.Service.Interface;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace Student.API.Controllers
 {
@@ -19,7 +19,6 @@ namespace Student.API.Controllers
     [ApiController]
     public class ProfileUserController : ControllerBase
     {
-
         private readonly IPerfilUserService _service;
         private readonly IConfiguration _configuration;
 

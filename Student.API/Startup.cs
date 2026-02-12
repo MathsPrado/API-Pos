@@ -32,12 +32,13 @@ namespace Student.API
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient();
-            services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student.API", Version = "v1" });
@@ -46,7 +47,7 @@ namespace Student.API
             var sqlConnection = Configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<AppDbContext>(options =>
-                                                        options.UseSqlServer(sqlConnection));
+                options.UseSqlServer(sqlConnection));
 
             // Configuração JWT
             var jwtSettings = Configuration.GetSection("JwtSettings");
@@ -71,27 +72,25 @@ namespace Student.API
                 };
             });
 
-            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            // Injeção de Dependências
             services.AddScoped<ISolicitacaoProjetoRepository, SolicitacaoProjetoRepository>();
             services.AddScoped<ISolicitacaoProjetoService, SolicitacaoProjetoService>();
+            services.AddScoped<IPerfilUserRepository, PerfilUserRepository>();
             services.AddScoped<IPerfilUserService, PerfilUserService>();
-
             services.AddScoped<IPropostaSolicitacaoProjetoRepository, PropostaSolicitacaoProjetoRepository>();
             services.AddScoped<IPropostaSolicitacaoProjetoService, PropostaSolicitacaoProjetoService>();
-            services.AddScoped<IPerfilUserRepository, PerfilUserRepository>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-
             app.UseDeveloperExceptionPage();
+
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Student.API v1"));
-            
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
