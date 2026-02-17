@@ -8,6 +8,7 @@ namespace Student.API.Repository.Interface
     {
         Task<IEnumerable<SolicitacaoProjeto>> GetAll();
         Task<SolicitacaoProjeto> FindById(int id);
+        Task<bool> Exists(SolicitacaoProjeto value);
         Task<SolicitacaoProjeto> Create(SolicitacaoProjeto value);
         Task<SolicitacaoProjeto> Update(SolicitacaoProjeto value);
         Task<SolicitacaoProjeto> Delete(int id);
