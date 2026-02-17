@@ -22,14 +22,19 @@ namespace Student.API.Service
 
         public async Task<SolicitacaoProjetoDTO> Create(SolicitacaoProjetoDTO solicitacaoProjetoDTO)
         {
-            var result = await _repository.Create(_mapper.Map<SolicitacaoProjeto>(solicitacaoProjetoDTO));
-            return _mapper.Map<SolicitacaoProjetoDTO>(solicitacaoProjetoDTO);
+            var entity = _mapper.Map<SolicitacaoProjeto>(solicitacaoProjetoDTO);
+            var exists = await _repository.Exists(entity);
+            if (exists)
+                throw new System.Exception("Solicitação de projeto já existe");
+
+            var result = await _repository.Create(entity);
+            return _mapper.Map<SolicitacaoProjetoDTO>(result);
         }
 
         public async Task<SolicitacaoProjetoDTO> Delete(int id)
         {
             var result = await _repository.Delete(id);
-            return _mapper.Map<SolicitacaoProjetoDTO>(id);
+            return _mapper.Map<SolicitacaoProjetoDTO>(result);
         }
 
         public async Task<SolicitacaoProjetoDTO> FindById(int id)
@@ -47,7 +52,7 @@ namespace Student.API.Service
         public async Task<SolicitacaoProjetoDTO> Update(SolicitacaoProjetoDTO solicitacaoProjetoDTO)
         {
             var result = await _repository.Update(_mapper.Map<SolicitacaoProjeto>(solicitacaoProjetoDTO));
-            return _mapper.Map<SolicitacaoProjetoDTO>(solicitacaoProjetoDTO);
+            return _mapper.Map<SolicitacaoProjetoDTO>(result);
         }
     }
 }

@@ -33,6 +33,14 @@ namespace Student.API.Repository
             return value;
         }
 
+        public async Task<bool> Exists(SolicitacaoProjeto value)
+        {
+            if (value == null)
+                return false;
+
+            return await _context.SolicitacaoProjeto.AnyAsync(s => s.Titulo == value.Titulo && s.DataInicio == value.DataInicio);
+        }
+
         public async Task<SolicitacaoProjeto> Delete(int id)
         {
             var category = await FindById(id);
