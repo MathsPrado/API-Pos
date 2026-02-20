@@ -13,5 +13,7 @@ namespace Student.API.Model
         public string Telefone { get; set; }
         public string Biografia { get; set; }
         public string PasswordHash { get; set; }
+
+        public ICollection<Habilidade> Habilidades { get; set; } = new List<Habilidade>();
     }
 }
