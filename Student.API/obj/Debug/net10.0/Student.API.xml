@@ -88,5 +88,17 @@
         <member name="M:Student.API.Migrations.m01.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:Student.API.Migrations.AdicionarRelacionamentoHabilidades">
+            <inheritdoc />
+        </member>
+        <member name="M:Student.API.Migrations.AdicionarRelacionamentoHabilidades.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Student.API.Migrations.AdicionarRelacionamentoHabilidades.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Student.API.Migrations.AdicionarRelacionamentoHabilidades.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

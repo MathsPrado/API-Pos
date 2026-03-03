@@ -6,16 +6,23 @@ namespace Student.API.Context
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
         public DbSet<SolicitacaoProjeto> SolicitacaoProjeto { get; set; }
         public DbSet<PropostaSolicitacaoProjeto> PropostaSolicitacaoProjeto { get; set; }
         public DbSet<PerfilUser> PerfilUser { get; set; }
 
+
+        public DbSet<Habilidade> Habilidades { get; set; }
+
         protected override void OnModelCreating(ModelBuilder mb)
         {
+
             mb.Entity<SolicitacaoProjeto>().HasKey(c => c.Id);
             mb.Entity<PropostaSolicitacaoProjeto>().HasKey(c => c.Id);
             mb.Entity<PerfilUser>().HasKey(c => c.Id);
-            mb.Entity<PerfilUser>().HasKey(c => c.Id);
+
+
+            mb.Entity<Habilidade>().HasKey(h => h.Id);
         }
     }
 }

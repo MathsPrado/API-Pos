@@ -163,7 +163,6 @@ C:\Trabalho\API-Pos\Student.API\obj\Debug\net10.0\staticwebassets.build.json.cac
 C:\Trabalho\API-Pos\Student.API\obj\Debug\net10.0\staticwebassets.development.json
 C:\Trabalho\API-Pos\Student.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Trabalho\API-Pos\Student.API\obj\Debug\net10.0\swae.build.ex.cache
-C:\Trabalho\API-Pos\Student.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Trabalho\API-Pos\Student.API\obj\Debug\net10.0\Student..E2036172.Up2Date
 C:\Trabalho\API-Pos\Student.API\obj\Debug\net10.0\Student.API.dll
 C:\Trabalho\API-Pos\Student.API\obj\Debug\net10.0\refint\Student.API.dll
